@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="car.css">
+    </head>
+    <body>
+    <center>
+    <br>
+    <div style="letter-spacing: 2px; " class="btn btn-primary heading"><p>Hand Guesture App</p>
+     <span>   
+    <span>👌</span>
+    <span>👍</span>
+    <span>✌</span>
+</span>
+<br>
+</div>
+<br>
+<br>
+<div>
+  <h4 style="color: white;">Take a selfie of its gesture to know about its meaning</h4>
+  <h6 style="color: white;">On the following gestures the model is trained</h6>
+<span style="font-size: 20px;">👌│👍│✌</span>
+</div>
+<span>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+        <label class="btn btn-default">Webcam View-</label>
+        <div id="live_camera"></div>
+        <br><br>
+        <button class="btn btn-success" onclick="take_da_phootoo()">Take photoo</button>
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <label class="btn btn-default">Prediction-</label>
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <label class="btn btn-default">Snapshot-</label>
+        <div id="snapshot"></div>
+        <br><br>
+        <button class="btn btn-danger" onclick="check()">Check</button>
+      </div> 
+    </span>
+    </center>
+    </body>
+</html>

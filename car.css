@@ -1,0 +1,19 @@
+.heading{
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: greenyellow;
+    background-color: rgb(255, 255, 255);
+}
+body{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNJSbENB5DvuyU1p6--ZdI86O5lJDSIhX_Mw&usqp=CAU");
+    background-size: cover;
+}
+#live_camera,#snapshot{
+    height: 300px;
+    width: 300px;
+    border: 5px dotted yellow;
+}
